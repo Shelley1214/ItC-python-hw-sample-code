@@ -8,15 +8,13 @@ class Crawler(object):
         self.base_url = base_url
         self.rel_url = rel_url
 
-    def crawl(self, start_date, end_date,
-              date_thres=datetime(2012, 1, 1)):
+    def crawl(self, start_date, end_date):
         """Main crawl API
 
         1. Note that you need to sleep 0.1 seconds for any request.
         2. It is welcome to modify TA's template.
         """
-        if end_date < date_thres:
-            end_date = date_thres
+
         contents = list()
         page_num = 0
         while True:
