@@ -27,4 +27,11 @@
                        └── ...
         ```
       * If your format is incorrect, you might get some penalty.
+     
+ * Example:
+     ```
+     python main.py --start_date 2022-05-01 --end_date 2022-05-15 --output output.csv
+     ```
+     * output.csv:
+        ![](https://i.imgur.com/MyYKqfo.png)
   <!-- * reference: https://github.com/kaikai4n/ItC-python-hw-sample-code -->
