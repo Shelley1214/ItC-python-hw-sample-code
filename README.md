@@ -30,7 +30,7 @@
      
  * Example:
      ```
-     python main.py --start_date 2022-05-01 --end_date 2022-05-15 --output output.csv
+     python main.py --start-date 2022-05-01 --end-date 2022-05-15 --output output.csv
      ```
      * output.csv:
         ![](https://i.imgur.com/MyYKqfo.png)
